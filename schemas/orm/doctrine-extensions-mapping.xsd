@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://iteo.com.pl/schemas/orm/doctrine-extensions-mapping"
+    xmlns:iteo="http://iteo.com.pl/schemas/orm/doctrine-extensions-mapping"
+    elementFormDefault="qualified">
+
+  <xs:annotation>
+    <xs:documentation><![CDATA[
+       This is the XML Schema for the object/relational
+       mapping file used by the Doctrine Extensions by Iteo
+       extensions
+       Doctrine component version support: 2.2.x
+     ]]></xs:documentation>
+  </xs:annotation>
+
+  <!-- entity -->
+  <!-- field -->
+  <xs:element name="contextable" type="iteo:contextable"/>
+
+  <xs:complexType name="contextable">
+    <xs:attribute name="context" type="xs:string" use="required" />
+  </xs:complexType>
+
+</xs:schema>

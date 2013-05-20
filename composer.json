@@ -1,0 +1,49 @@
+{
+    "name": "iteo/doctrine-extensions",
+    "type": "library",
+    "description": "Doctrine2 behavioral extensions",
+    "keywords": [
+        "behaviors",
+        "doctrine2",
+        "extensions",
+        "iteo",
+        "contextable"
+    ],
+    "homepage": "http://iteo.co",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iteo Team",
+            "homepage": "http://iteo.co"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://github.com/Iteo/DoctrineExtensions/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Iteo/DoctrineExtensions/issues",
+        "source": "https://github.com/Iteo/DoctrineExtensions"
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/common": ">=2.2,<2.5-dev"
+    },
+    "require-dev": {
+        "doctrine/orm": ">=2.2",
+        "doctrine/dbal": ">=2.2",
+        "symfony/yaml": "2.*"
+    },
+    "suggest": {
+        "doctrine/orm": ">=2.3.2",
+        "doctrine/dbal": ">=2.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Iteo": "lib/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.3.x-dev"
+        }
+    }
+}
